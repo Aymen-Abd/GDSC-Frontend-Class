@@ -52,3 +52,19 @@ textarea {
 .submit-button:hover {
   background-color: #0056b3;
 }
+@media (max-width: 600px) {
+  form {
+    padding: 15px;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    padding: 10px;
+  }
+
+  .submit-button {
+    padding: 12px;
+    font-size: 1em;
+  }
+}
